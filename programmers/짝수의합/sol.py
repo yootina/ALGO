@@ -6,7 +6,6 @@ def solution(n):
     for number in range(n + 1):
         if number % 2 == 0:
 
-
     return answer
 
 ########################
@@ -32,6 +31,23 @@ print(solution(4))
 
 def solution(n):
     numbers = range(2, n+1, 2)
+    # 애초에 1은 포함이 되질 않으니 2부터 시작하고
+    # n+1만큼 반복을 하고 간격을 2만큼 달라고 한다.
+    return sum(numbers)
+
+print(solution(10))
+print(solution(4))
+
+# sum이라는 함수를 사용해서 코드 짠 방식
+# result라는 리스트를 하나 만들어서 sum함수를 사용
+def solution(n):
+    numbers = range(2, n+1, 2)
+
+    result = []
+
+    for number in numbers:
+        if number % 2 == 0:
+            result.append(number)
     return sum(numbers)
 
 print(solution(10))

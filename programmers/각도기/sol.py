@@ -32,3 +32,10 @@ def solution(angle):
 print(solution(70))
 print(solution(91))
 print(solution(180))
+
+####################################
+# 프로그래머스 서병일, 아나가, peal, 정우진 님 외 3명 풀이를 가져와봤습니다.
+
+def solution(angle):
+    answer = (angle // 90) * 2 + (angle % 90 > 0) * 1
+    return answer
