@@ -7,3 +7,7 @@ def solution(n, k):
 
 print(solution(10, 3))
 print(solution(64, 6))
+
+########################
+
+# 프로그래머스 다른 사람의 풀이 방법

@@ -38,3 +38,7 @@ def solution(numbers):
 print(solution([1, 2, 3, 4, 5]))
 print(solution([0, 31, 24, 10, 1, 9]))
 
+
+
+# 리스트를 제자리에서(in-place) 수정하는 내장 list.sort() 메서드 (원본변경 O)
+# 새로운 정렬된 리스트를 만드는 sorted() 내장 함수 (원본변경 X)
