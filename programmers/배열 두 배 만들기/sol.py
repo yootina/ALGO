@@ -9,5 +9,14 @@ def solution(numbers):
         answer.append(number)
 
     return answer
+
 print(solution([1, 2, 3, 4, 5]))
 print(solution([1, 2, 100, -99, 1, 2, 3]))
+
+
+##########################################
+
+# 다른사람의 풀이
+
+def solution(numbers):
+    return list(map(lambda x: x * 2, numbers))
