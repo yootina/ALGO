@@ -20,8 +20,8 @@ def solution(my_string):
     return answer
 
 
-
-3. def solution(my_string):
+3.
+def solution(my_string):
     answer = 0
 
     for string in my_string:
