@@ -7,14 +7,11 @@ import math
 
 def solution(numer1, denom1, numer2, denom2):
     
-
     boonmo = denom1 * denom2
     boonza = (numer1 * denom2) + (denom1 * numer2)
-
     gcd_number = math.gcd(boonmo, boonza)
 
     answer = [boonza // gcd_number, boonmo // gcd_number]
-
 
     return answer
 
