@@ -62,5 +62,5 @@ print(solution('bread'))
 # print(str1.reverse())
 # => reverse() 메소드는 원본데이터를 직접 수정하고 리턴이 없는 메소드입니다.
 
-# reversed() 함수는 원본 은 유지 / 결과를 리턴
-# .reverse() 메소드는 원본을 변경 / 리턴 이 없음
+# reversed() 함수는 원본은 유지 / 결과를 리턴
+# .reverse() 메소드는 원본을 변경 / 리턴이 없음

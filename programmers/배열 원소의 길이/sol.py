@@ -12,6 +12,8 @@ def solution(strlist):
 print(solution(["We", "are", "the", "world!"]))
 print(solution(["I", "Love", "Programmers."]))
 
+
+# 프로그래머스 다른 사람의 풀이
 def solution(strlist):
     return [len(s) for s in strlist]
 

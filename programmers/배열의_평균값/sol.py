@@ -1,12 +1,3 @@
-def solution(numbers):
-    answer = 0
-    
-    for i in numbers:
-    return answer
-
-# ㅠㅠ
-########################
-
 
 def solution(numbers):
     answer = 0

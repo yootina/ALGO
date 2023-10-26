@@ -17,7 +17,7 @@ def solution(numbers, num1, num2):
 print(solution[1, 2, 3, 4, 5], 1, 3)
 print(solution[1, 3, 5], 1, 2)
 
-# 2. 두번재방법
+# 2. 두번째방법
 
 def solution(numbers, num1, num2):
     answer = []

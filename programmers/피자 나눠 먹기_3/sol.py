@@ -30,7 +30,7 @@ def solution(slice, n):
     return d + int(m != 0)
 
 print(solution(7, 10))
-
+# != : 두 값이 다르면 true, 아니면 false를 반환
 
 ##################################
 
