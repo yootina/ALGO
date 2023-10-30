@@ -4,7 +4,8 @@
 
 def solution(my_string):
     
-    vowel = 'a, e, i, o, u'
+    vowel = 'a,e,i,o,u'
+    # 'aeiou'
     for char in vowel:
         my_string = my_string.replace(char, '')
 
@@ -14,17 +15,17 @@ print(solution("bus"))
 print(solution("nice to meet you"))
 # 실행한 결괏값 "nctmty"이 기댓값 "nc t mt y"과 다릅니다.
 
-def solution(my_string):
+# def solution(my_string):
     
-    answer = ''
-    vowel = ('a, e, i, o, u')
-    for char in my_string:
-        if char not in vowel:
-            answer += char
+#     answer = ''
+#     vowel = ('a, e, i, o, u')
+#     for char in my_string:
+#         if char not in vowel:
+#             answer += char
 
-    return answer
-print(solution("bus"))
-print(solution("nice to meet you"))
+#     return answer
+# print(solution("bus"))
+# print(solution("nice to meet you"))
 
 def solution(my_string):
     
