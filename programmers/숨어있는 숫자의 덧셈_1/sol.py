@@ -1,12 +1,13 @@
 1.
 def solution(my_string):
     answer = 0
-    for string in my_string:
+    for char in my_string:
         if char.isdigit():
             answer += int(char)
     return answer
 
-
+print(solution("aAb1B2cC34oOp"))
+print(solution("1a2b3c4d123"))
 
 2. 
 def solution(my_string):
@@ -19,6 +20,8 @@ def solution(my_string):
             continue
     return answer
 
+print(solution("aAb1B2cC34oOp"))
+print(solution("1a2b3c4d123"))
 
 3.
 def solution(my_string):
