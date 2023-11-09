@@ -28,7 +28,7 @@ def solution(my_string):
     answer = 0
 
     for string in my_string:
-        if not ord('A') <= ord(string) <= ord('Z')
+        if not ord('A') <= ord(string) <= ord('Z'):
         # if ord( ...)
             answer += int(char)
 
